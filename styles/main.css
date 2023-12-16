@@ -1,0 +1,116 @@
+/*This is an imported google font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto; /*amount of columns, this time there are 3 */
+    grid-gap: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+/*Aligns the navbar text*/
+.topnav {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*Modifies the general navbar*/
+.topnav a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: solid;
+    border-radius: 20px;
+    background-color: white;
+    margin: 2px;
+    padding: 10px;
+}
+
+/*Retains the color of navbar words when visiting the website*/
+a:visited { 
+    text-decoration: none; 
+    color: #B4654A; 
+}
+
+/*Changes the color of navbar words when hover the mouse cursor over them*/
+a:hover 
+{   text-decoration: none;
+    color:#515B3A;
+    background-color: white;
+}
+
+/*Modifies every text throughout the main body of the document*/
+body {
+    background-color:#FAEDCA;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+/*Modifies all paragraphs*/
+p {
+    font-size: 1.5rem;
+}
+
+/*Modifies all main headings*/
+h1 {
+    font-size: 30pt;
+    margin-top: 100px;
+}
+
+/*Modifies more aspects of the pricing table*/
+.Prices table, .Prices th, .Prices td {
+    border: solid;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+    padding: 5px;
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/*Specifically modifies the main categories of the table*/
+.Prices th {
+    font-style: bold;
+}
+
+.Hours table, .Hours td {
+    border: solid;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+    padding: 5px;
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/*Modifies the location info and image*/
+.Location {
+    border: solid;
+    border-color: #B4654A;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+/*Disclaimer information*/
+.Disclaimer p, .Disclaimer h3 {
+    font-size: 13pt;
+}
+
+/*Document Modified Date*/
+.DocumentMod p {
+    font-size: 11pt;
+}

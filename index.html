@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta charset="UTF-8">
+          <!--Title of the page (browser)-->
+          <title>Chris's Cuts</title>
+          <!--Icon-->
+          <link rel="shortcut icon" href="images/CC's Logo.png">
+          <!--CSS-->
+          <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <header>
+        <!--Bookmark Navigation (Jumps to page sections)-->
+        <div class="topnav">
+            <a href="#Prices">Prices</a>
+            <a href="#Services">Services</a>
+            <a href="#Hours">Business Hours</a>
+            <a href="#Location">Location</a>
+        </div>
+    </header>
+
+    <body>
+        <!--Title that will be displayed on the page-->
+        <div class="MainTitle">
+            <h1>Chris's Cuts</h1>
+        </div>
+
+        <!--Welcome paragraphg-->
+        <div class="Welcome">
+            <p>Welcome to Chris's Cuts, our private business provides customers with the most professional care in hair cutting and styling.
+                Our services range between basic cuts to specialized styles that will make you love your hair all over again.
+                For information on services, pricing, and location, please browse the sections below.
+            </p>
+        </div>
+
+        <!--Prices Table and Paragraph-->
+        <div class="Prices" id="Prices">
+            <h2>Prices</h2>
+            <p>Below are the prices displayed, we also provide custom cuts and trims for nominal fees.</p>
+            </div>
+
+            <article class="grid">
+        <div class="Prices" id="PricesTable">
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Kid's cut</td>
+                    <td>$14.98</td>
+                </tr>
+                <tr>
+                    <td>Basic cut</td>
+                    <td>$19.98</td>
+                </tr>
+
+                <tr>
+                    <td>Supreme cut</td>
+                    <td>$29.98</td>
+                </tr>
+
+                <tr>
+                    <td>Basic with Shampoo Wash</td>
+                    <td>$24.98</td>
+                </tr>
+                <tr>
+                    <td>Alignment</td>
+                    <td>$9.98</td>
+                </tr>
+                <tr>
+                    <td>Beard trim</td>
+                    <td>$7.98</td>
+                </tr>
+
+                <tr>
+                    <td>Eyebrows</td>
+                    <td>$7.98</td>
+                </tr>
+
+                <tr>
+                    <td>Hair dye</td>
+                    <td>$19.98</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Barber Shop Image-->
+        <div class="ShopImage" id="ShopImage">
+            <img src="./images/barbershop.jpg" alt="Barber Shop" width="400" height="400">
+        </div>
+    </article>
+
+        <!--Services Provided-->
+        <div class="Services" id="Services">
+            <h2>Services</h2>
+
+            <h3>Kid's Cut</h3>
+            <p>This is the full hair cutting experience for children between the ages 3-13 years, includes alignment and trimming.</p>
+
+            <h3>Basic Cut</h3>
+            <p>Includes the full hair cutting experience, alongside alignment and trimming.</p>
+
+            <h3>Supreme Cut</h3>
+            <p>The platinum experience, includes the full hair cutting experience, along with quality eyebrow and beard trimming, alignment, and a shampoo wash that will leave you looking your best.</p>
+
+            <h3>Shampoo Wash</h3>
+            <p>An optional feature with the basic cut, a well groomed shampoo wash that will leave you feeling refreshed after your cut is complete.</p>
+
+            <h3>Alignment and Beard Trimming</h3>
+            <p>Correcting the edges on both the scalp, jawline, and chin of the face. A professional look that will leave you looking ready to tackle the day.</p>
+
+            <h3>Eyebrows</h3>
+            <p>Trimming done on the eyebrows to keep them looking sharp and professional.</p>
+
+            <h3>Hair Dye</h3>
+            <p>Coloring of the hair, our colors include all the basic tints, as well as some special colors for more extravagant looks.</p>
+        </div>
+
+        <!--Business Hours and Contact Information-->
+        <div class="Hours" id="Hours">
+            <h2>Business Hours</h2>
+            <table>
+                <tr>
+                    <td>Monday</td>
+                    <td>8am-8pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>8am-8pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8am-8pm</td>
+                </tr>
+
+                <tr>
+                    <td>Thursday</td>
+                    <td>8am-8pm</td>
+                </tr>
+
+                <tr>
+                    <td>Friday</td>
+                    <td>8am-8pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10am-6pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Location Information-->
+        <div class="Location" id="Location">
+            <h2>Location</h2>
+            <p>You can find us here on our google map on the left of generic side road.<br>
+            1234 streetview generic side road, 12345 Miami, FL</p>
+            <img src="./images/GoogleMap.jpg" alt="Google Map" width="200" height="200">
+        </div>
+
+        <!--Contact Information-->
+        <div class="Contact" id="Contact">
+        <h3>Contact Info</h3>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: chriscuts@genericemail.com</p>
+        </div>
+
+        <!--Disclaimer-->
+        <div class="Disclaimer" id="Disclaimer">
+            <h3>Disclaimer</h3>
+                <p><i>The use of this website is for educational purposes. 
+                It is not intended for e-commerce or providing a service as a real store.
+                All assets and images used are public domain.</i></p>
+        </div>
+
+        <!--Document Modification Date using JavaScript-->
+        <div class="DocumentMod" id="DocumentMod">
+        <p>This document was last modified <span id="demo"></span>.</p>
+
+<script>
+document.getElementById("demo").innerHTML = document.lastModified;
+</script>
+</div>
+    </body>
+</html>
